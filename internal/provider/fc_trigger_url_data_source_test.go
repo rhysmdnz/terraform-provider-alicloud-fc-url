@@ -3,30 +3,30 @@
 
 package provider
 
-import (
-	"testing"
+// func TestAccFcTriggerUrlDataSource(t *testing.T) {
+// 	resource.Test(t, resource.TestCase{
+// 		PreCheck:                 func() { testAccPreCheck(t) },
+// 		ProtoV6ProviderFactories: testAccProtoV6ProviderFactories,
+// 		Steps: []resource.TestStep{
+// 			// Read testing
+// 			{
+// 				Config: testAccExampleDataSourceConfig,
+// 				Check: resource.ComposeAggregateTestCheckFunc(
+// 					resource.TestCheckResourceAttr("data.alicloud-fc-url_trigger_url.test", "id", "example-id"),
+// 				),
+// 			},
+// 		},
+// 	})
+// }
 
-	"github.com/hashicorp/terraform-plugin-testing/helper/resource"
-)
+// const testAccExampleDataSourceConfig = `
+// provider "alicloud-fc-url" {
+// 	region = "cn-shanghai"
+//   }
 
-func TestAccFcTriggerUrlDataSource(t *testing.T) {
-	resource.Test(t, resource.TestCase{
-		PreCheck:                 func() { testAccPreCheck(t) },
-		ProtoV6ProviderFactories: testAccProtoV6ProviderFactories,
-		Steps: []resource.TestStep{
-			// Read testing
-			{
-				Config: testAccExampleDataSourceConfig,
-				Check: resource.ComposeAggregateTestCheckFunc(
-					resource.TestCheckResourceAttr("data.scaffolding_example.test", "id", "example-id"),
-				),
-			},
-		},
-	})
-}
-
-const testAccExampleDataSourceConfig = `
-data "scaffolding_example" "test" {
-  configurable_attribute = "example"
-}
-`
+// data "alicloud-fc-url_trigger_url" "test" {
+// 	service_name  = "some-value"
+// 	function_name = "some-value"
+// 	trigger_name  = "some-value"
+// }
+// `

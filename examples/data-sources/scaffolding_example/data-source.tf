@@ -1,3 +1,5 @@
 data "alicloud-fc-url_trigger_url" "example" {
-  configurable_attribute = "some-value"
+  service_name  = "some-value"
+  function_name = "some-value"
+  trigger_name  = "some-value"
 }
