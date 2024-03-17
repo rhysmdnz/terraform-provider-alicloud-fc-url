@@ -1,4 +1,4 @@
-module terraform-provider-alicloud-fc-url
+module github.com/rhysmdnz/terraform-provider-alicloud-fc-url
 
 go 1.21
 

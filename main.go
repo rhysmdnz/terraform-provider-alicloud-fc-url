@@ -8,7 +8,7 @@ import (
 	"flag"
 	"log"
 
-	"terraform-provider-alicloud-fc-url/internal/provider"
+	"github.com/rhysmdnz/terraform-provider-alicloud-fc-url/internal/provider"
 
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
 )
