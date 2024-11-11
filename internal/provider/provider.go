@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	openapi "github.com/alibabacloud-go/darabonba-openapi/v2/client"
-	fc20230330 "github.com/alibabacloud-go/fc-20230330/v3/client"
+	fc20230330 "github.com/alibabacloud-go/fc-20230330/v4/client"
 	sts20150401 "github.com/alibabacloud-go/sts-20150401/v2/client"
 	"github.com/alibabacloud-go/tea/tea"
 	credentials "github.com/aliyun/credentials-go/credentials"

@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	fc20230330 "github.com/alibabacloud-go/fc-20230330/v3/client"
+	fc20230330 "github.com/alibabacloud-go/fc-20230330/v4/client"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/datasource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/types"
