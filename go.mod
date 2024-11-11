@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	github.com/alibabacloud-go/darabonba-openapi/v2 v2.0.10
-	github.com/alibabacloud-go/fc-20230330/v3 v3.1.0
+	github.com/alibabacloud-go/fc-20230330/v4 v4.1.4
 	github.com/alibabacloud-go/fc-20230330/v4 v4.1.4
 	github.com/alibabacloud-go/sts-20150401/v2 v2.0.2
 	github.com/alibabacloud-go/tea v1.2.2
