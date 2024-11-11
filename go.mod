@@ -8,7 +8,7 @@ require (
 	github.com/alibabacloud-go/fc-20230330/v4 v4.1.4
 	github.com/alibabacloud-go/sts-20150401/v2 v2.0.2
 	github.com/alibabacloud-go/tea v1.2.2
-	github.com/aliyun/credentials-go v1.3.10
+	github.com/aliyun/credentials-go v1.4.1
 	github.com/hashicorp/terraform-plugin-docs v0.18.0
 	github.com/hashicorp/terraform-plugin-framework v1.7.0
 	github.com/hashicorp/terraform-plugin-go v0.22.1
