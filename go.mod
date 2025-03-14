@@ -8,7 +8,7 @@ require (
 	github.com/alibabacloud-go/darabonba-openapi/v2 v2.0.10
 	github.com/alibabacloud-go/fc-20230330/v4 v4.1.4
 	github.com/alibabacloud-go/sts-20150401/v2 v2.0.2
-	github.com/alibabacloud-go/tea v1.2.2
+	github.com/alibabacloud-go/tea v1.3.4
 	github.com/aliyun/credentials-go v1.4.1
 	github.com/hashicorp/terraform-plugin-docs v0.20.0
 	github.com/hashicorp/terraform-plugin-framework v1.13.0
@@ -27,7 +27,7 @@ require (
 	github.com/alibabacloud-go/endpoint-util v1.1.1 // indirect
 	github.com/alibabacloud-go/openapi-util v0.1.0 // indirect
 	github.com/alibabacloud-go/tea-utils v1.4.5 // indirect
-	github.com/alibabacloud-go/tea-utils/v2 v2.0.6 // indirect
+	github.com/alibabacloud-go/tea-utils/v2 v2.0.7 // indirect
 	github.com/alibabacloud-go/tea-xml v1.1.3 // indirect
 	github.com/apparentlymart/go-textseg/v15 v15.0.0 // indirect
 	github.com/armon/go-radix v1.0.0 // indirect
